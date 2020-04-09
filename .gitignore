@@ -1,0 +1,14 @@
+# Project exclude paths
+/.gradle/
+/ClientJavaFX/build/
+/ClientJavaFX/build/classes/java/main/
+/Entity/build/
+/Entity/build/classes/java/main/
+/Networking/build/
+/Networking/build/classes/java/main/
+/persistance/build/
+/persistance/build/classes/java/main/
+/Server/build/
+/Server/build/classes/java/main/
+/Services/build/
+/Services/build/classes/java/main/
