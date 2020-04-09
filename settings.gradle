@@ -1,0 +1,11 @@
+rootProject.name = 'networking'
+include 'persistance'
+include 'Entity'
+include 'Networking'
+include 'Services'
+findProject(':Services')?.name = 'services'
+include 'Server'
+findProject(':Server')?.name = 'server'
+include 'ClientJavaFX'
+findProject(':ClientJavaFX')?.name = 'client'
+

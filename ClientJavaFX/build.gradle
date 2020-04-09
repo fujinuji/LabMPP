@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'scs.ubb.mpp'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":Entity")
+    compile project(':services')
+    compile project(':persistance')
+    compile project(':Networking')
+    compile project(':server')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
